@@ -1,0 +1,43 @@
+{
+  "name": "passport-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec --exit",
+    "dev": "nodemon start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "@5aava",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/register": "^7.8.6",
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "discord.js": "^11.6.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "googleapis": "^39.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "mustache": "^3.2.1",
+    "mysql2": "^1.7.0",
+    "nodemailer": "^6.4.5",
+    "request": "^2.88.2",
+    "sequelize": "^5.21.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^6.8.0",
+    "mocha": "^6.2.2"
+  }
+}
